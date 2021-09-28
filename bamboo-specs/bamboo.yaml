@@ -1,0 +1,17 @@
+---
+version: 2
+plan:
+  key: K6
+  name: k6 Example
+
+# List of plan's stages and jobs
+stages:
+  - Load testing stage:
+      - Test
+
+#Job definition
+Test:
+  tasks:
+    - script:
+        - k6 run scripts/test.js
+        - echo 'Load testing complete'
