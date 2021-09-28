@@ -1,8 +1,8 @@
 ---
 version: 2
 plan:
-  project-key: K6_EXAMPLES
-  key: K6_TEST
+  project-key: K6PROJ
+  key: K6PLAN
   name: k6 Load Testing Plan
 
 # List of plan's stages and jobs
