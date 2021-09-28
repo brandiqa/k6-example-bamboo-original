@@ -1,7 +1,7 @@
 ---
 version: 2
 plan:
-  project-key: K6PROJ
+  project-key: KP
   key: K6PLAN
   name: k6 Load Testing Plan
 
