@@ -4,6 +4,17 @@ This is an example repo for how to setup k6 with [Atlassian Bamboo](https://www.
 
 The full guide describing how to use this repository is located [here](https://blog.loadimpact.com/).
 
+## Examples
+
+Bamboo [yaml spec](https://confluence.atlassian.com/bamboo/bamboo-yaml-specs-938844479.html) files need to be placed in `bamboo-specs/bamboo.yml` or `bamboo-specs/bamboo.yaml`. The example configurations below were generated via Bamboo's user interface.
+
+Do note these configurations are provided as examples and will not work out-of-the-box on your Bamboo server instance. You'll need at least to create the project manually and update the `users` section.
+
+| File                                                   | Description                        |
+| ------------------------------------------------------ | ---------------------------------- |
+| [local-example/bamboo.yaml](local-example/bamboo.yaml) | Runs locally on AWS infrastructure |
+| [cloud-example/bamboo.yaml](cloud-example/bamboo.yaml) | Runs on k6 cloud                   |
+
 ## Run Local
 
 ```bash
